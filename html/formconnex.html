@@ -5,6 +5,7 @@ Travail long
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +14,28 @@ Travail long
     <link rel="stylesheet" href="../css/styleform.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
+
 <body>
-    
+    <form action="../script/connexion.php" method="post">
+        <fieldset>
+            <label for="nom">Your work name :</label>
+            <input type="text" name="nom" id="nom" placeholder="ex: haaaaaaaaaaaa" required>
+            <div>
+                <label>Your email(for contact) :</label>
+                <input type="email" name="courriel" placeholder="...@gmail.com" required>
+                
+            </div>
+            <label>Your phone number</label>
+            <input type="number" name="phone" placeholder="XXX-XXX-XXXX" required>
+
+        </fieldset>
+
+
+    </form>
 
 
 
-    <h1><a href="../index.html">Retour a la page d'index</a></h1>    
+    <h1><a href="../index.html">Retour a la page d'index</a></h1>
 </body>
+
 </html>
