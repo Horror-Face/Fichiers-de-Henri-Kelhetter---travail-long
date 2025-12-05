@@ -4,6 +4,14 @@ Henri Kelhetter Raphaël desjardins
 Travail long  
 */
 
+html{
+    cursor: url(../images/REPO.cur) 17 17, auto;
+}
+
+a:hover{
+    cursor: url(../images/REPO-jaune.cur) 17 17, auto;
+}
+
 body {
     background-image: url(../images/Fond.png);
     color: red;
