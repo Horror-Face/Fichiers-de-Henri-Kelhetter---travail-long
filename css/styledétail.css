@@ -11,3 +11,14 @@ img{
     border-radius: 25px;
     border: double rgb(162, 0, 255) 5px;
 }
+div h3 a {
+    color: transparent;
+}
+
+div h3 a:hover{
+    cursor: url(../images/REPO-jaune.cur) 17 17, auto;
+    transition: 1s;
+    font-size: 100px;
+    color: red;
+
+}
