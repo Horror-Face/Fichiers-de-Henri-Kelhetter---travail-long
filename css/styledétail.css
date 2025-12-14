@@ -4,7 +4,7 @@ Henri Kelhetter Raphaël desjardins
 Travail long  
 */
 
-img{
+div img{
     width: 800px;
     height: 1000px;
     float: right;
@@ -21,4 +21,13 @@ div h3 a:hover{
     font-size: 75px;
     color: red;
 
+}
+aside{
+    border: solid 5px;
+}
+
+aside img {
+    width: 50px;
+    height: 50px;
+    
 }
