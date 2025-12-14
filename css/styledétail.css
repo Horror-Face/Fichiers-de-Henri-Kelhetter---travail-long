@@ -17,8 +17,8 @@ div h3 a {
 
 div h3 a:hover{
     cursor: url(../images/REPO-jaune.cur) 17 17, auto;
-    transition: 1s;
-    font-size: 100px;
+    transition: 2s;
+    font-size: 75px;
     color: red;
 
 }
