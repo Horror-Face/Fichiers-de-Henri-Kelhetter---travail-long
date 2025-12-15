@@ -3,6 +3,10 @@ Henri Kelhetter Raphaël desjardins
 2025-12-01
 Travail long  
 */
+@font-face {
+    font-family: 'REPO';
+    src: url(../fonts/oups/Oups.otf)
+}
 
 html{
     cursor: url(../images/REPO.cur) 17 17, auto;
