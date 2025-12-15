@@ -32,7 +32,7 @@ Travail long
         </fieldset>
         <fieldset>
             <label for="numassusoc">Your social security number :</label>
-            <input type="text" name="numassusoc" placeholder="ex: 24g5 gf5r4" required>
+            <input type="text" name="numassusoc" placeholder="ex: 24g5 gf5r4" required maxlength="9">
             <p>Please select your age:</p>
             <input type="radio" id="age1" name="age" value="0-17">
             <label for="age1">0 - 17</label><br>
@@ -41,7 +41,29 @@ Travail long
             <input type="radio" id="age3" name="age" value="31-100">
             <label for="age3">31 - 100</label><br>
         </fieldset>
+        <fieldset>
+            <legend>Any disability?:</legend>
+            <div>
+                <input type="checkbox" id="vision" name="vision" checked />
+                <label for="vision">Vision impairment</label>
+            </div>
 
+            <div>
+                <input type="checkbox" id="Hearing" name="Hearing" />
+                <label for="Hearing">Hearing loss</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Cancer" name="Cancer" />
+                <label for="Cancer">Cancer</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Mobility" name="Mobility" />
+                <label for="Mobility">Mobility impairment</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Cognitive" name="Cognitive" />
+                <label for="Cognitive">Cognitive disability</label>
+        </fieldset>
 
         <input type="submit" value="Join">
         <input type="Reset" value="Clear">
