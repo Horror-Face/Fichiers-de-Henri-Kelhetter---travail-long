@@ -8,11 +8,11 @@ Travail long
     src: url(../fonts/oups/Oups.otf)
 }
 
-html{
+html {
     cursor: url(../images/REPO.cur) 17 17, auto;
 }
 
-a:hover{
+a:hover {
     cursor: url(../images/REPO-jaune.cur) 17 17, auto;
 }
 
@@ -20,9 +20,9 @@ body {
     background-image: url(../images/Fond.png);
     color: red;
     font-size: 35px;
-    
+
 }
+
 img {
     width: 100%;
 }
-
